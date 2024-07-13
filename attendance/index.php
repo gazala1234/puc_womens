@@ -80,13 +80,14 @@
         </div>
         <div class="col-sm-3" style="margin-top: 20px;">
             <center><button type="submit" class="btn btn-danger">Register</button>
-            <button type="submit" class="btn btn-success">Login</button></center>
-            <br/>
+                <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#loginModal">Login</button>
+            </center>
+            <br />
             <div>
                 <div class="testimonial">
                     <h4>SECAB - Socio Economic Cultural Association Bijapur Established in 1969 by Shams-uddin Punekar to provide education to the children of Bijapur, was soon accepted as a standard educational Institution by the people of the city.</h4>
                 </div>
-                <br/>
+                <br />
             </div>
         </div>
     </div>
@@ -110,6 +111,31 @@
 
     <div style="text-align: center; padding: 20px; background-color: #232933; color: white; clear: both;">
         <h6>Copyright &copy; 2017 Developed & Maintained by <span style="color: #f0ad4e">IT CELL</span> Secab, Bijapur</h6>
+    </div>
+
+    <!-- login modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="mail" id="mail" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="pass" id="pass" placeholder="Password">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Include Bootstrap JS and dependencies -->
