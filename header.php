@@ -70,23 +70,6 @@
 
     <header id="header-part">
 
-        <div class="header-top d-none d-lg-block">
-            <div class="ml-3">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="row mobile-social-share align-items-center">
-                            <a href="http://www.secab.org/" style="border: 1px solid white;"><img src="../images/secab.png" style="height: 50px; width: 100px;" class="img-responsive" alt="Secab" /></a>
-                            <div class="ml-3 row head-top-items">
-                                <a href="#" class="mr-2">Feedback</a>
-                                <a href="../attendance/index.php" class="mr-2">Attendance</a>
-                                <a id="contus" href="#" class="mr-2">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div> <!-- header-top -->
-
         <div class="header-logo-support">
             <div class="logo">
                 <center><a href="#"><img src="../images/pucollege.jpg" alt="Logo"></a></center>
@@ -141,6 +124,9 @@
                                     </li>
                                     <li class="nav-item">
                                         <a href="https://alumni.secab.org/">Alumni</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="contact.php">Contact</a>
                                     </li>
                                 </ul>
                             </div>
