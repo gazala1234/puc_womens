@@ -13,7 +13,6 @@ include 'header.php';
     }
 
     .contact-section h2 {
-        color: #333;
         border-bottom: 1px solid #ccc;
         padding-bottom: 10px;
         margin-bottom: 15px;

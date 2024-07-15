@@ -117,7 +117,7 @@ include '../header.php';
 
 <!--====== ABOUT PART START ======-->
 <hr>
-<div class="content pt-20">
+<div class="content pt-20 pb-20">
     <div class="row">
         <div class="abt-clg col-lg-7">
             <h2 class="heading">Courses Offered</h2>
@@ -135,9 +135,9 @@ include '../header.php';
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                            <div align="left" class="panel-body">
+                            <div align="left" class="panel-body row mt-3">
                                 <div style="padding: 0px;margin: 0px" class="col-sm-6">
-                                    <center><b style="color:#211B31">Part I</b></center>
+                                    <center><b>Part I</b></center>
                                     <ul style="list-style-type: none;">
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> English (Compulsory)</li>
                                         <li>Language (Selective) </li>
@@ -149,14 +149,14 @@ include '../header.php';
                                     </ul>
                                 </div>
                                 <div style="padding: 0px;margin: 0px" class="col-sm-6">
-                                    <center><b style="color:#211B31">Part II</b></center>
+                                    <center><b>Part II</b></center>
                                     <ul style="list-style-type: none;">
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> History</li>
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> Economics</li>
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> Political Science</li>
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> Sociology</li>
                                     </ul>
-                                    <center><b style="color:#211B31">OR</b></center>
+                                    <center><b>OR</b></center>
 
                                     <ul style="list-style-type: none;">
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> History</li>
@@ -178,9 +178,9 @@ include '../header.php';
                             </h4>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                            <div align="left" class="panel-body">
+                            <div align="left" class="panel-body row mt-3">
                                 <div class="col-sm-6">
-                                    <center><b style="color:#211B31">Part I</b></center>
+                                    <center><b>Part I</b></center>
                                     <ul style="list-style-type: none;">
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> English (Compulsory)</li>
                                         <li>Language (Selective) </li>
@@ -192,7 +192,7 @@ include '../header.php';
                                     </ul>
                                 </div>
                                 <div class="col-sm-6">
-                                    <center><b style="color:#211B31">Part II</b></center>
+                                    <center><b>Part II</b></center>
                                     <ul style="list-style-type: none;">
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> Physics</li>
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> Chemistry</li>
@@ -214,9 +214,9 @@ include '../header.php';
                             </h4>
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                            <div align="left" class="panel-body">
+                            <div align="left" class="panel-body row mt-3">
                                 <div class="col-sm-6">
-                                    <center><b style="color:#211B31">Part I</b></center>
+                                    <center><b>Part I</b></center>
                                     <ul style="list-style-type: none;">
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> English (Compulsory)</li>
                                         <li>Language (Selective) </li>
@@ -228,14 +228,14 @@ include '../header.php';
                                     </ul>
                                 </div>
                                 <div class="col-sm-6">
-                                    <center><b style="color:#211B31">Part II</b></center>
+                                    <center><b>Part II</b></center>
                                     <ul style="list-style-type: none;">
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> Business Studies</li>
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> Accountancy</li>
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> Economics</li>
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> Statistics</li>
                                     </ul>
-                                    <center><b style="color:#211B31">OR</b></center>
+                                    <center><b>OR</b></center>
 
                                     <ul style="list-style-type: none;">
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> Business Studies</li>
@@ -244,7 +244,7 @@ include '../header.php';
                                         <li><i class="fa fa-tags" aria-hidden="true"></i> Basic Maths</li>
                                     </ul>
                                 </div>
-                                <b style="color: #211B31">( Basic Maths combination is eligible criteria for B.Arch course )</b>
+                                <b>( Basic Maths combination is eligible criteria for B.Arch course )</b>
                             </div>
                         </div>
                     </div>

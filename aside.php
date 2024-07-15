@@ -8,84 +8,53 @@
              <marquee direction="up" height="350px" onmouseover="this.stop()" onmouseout="this.start()">
                  <ul class="event-list">
                      <li>
-                         <eve_nws>
-                             <span class="eve_nws">Event:</span>
-                         </eve_nws>
                          <div class="info">
                              <a href="../events/co-curricular.php">District level co-curricular</a>
                          </div>
                      </li>
 
                      <li>
-                         <eve_nws>
-                             <span class="eve_nws">Event:</span>
-                         </eve_nws>
                          <div class="info">
                              <a id="malgld" href="../events/malbar.php">Malbar Gold Event</a>
                          </div>
                      </li>
                      <li>
-                         <eve_nws>
-                             <span class="eve_nws">Event:</span>
-                         </eve_nws>
                          <div class="info">
                              <a id="cgprg" href="../events/career.php">Career Guidance Program</a>
                          </div>
-
                      </li>
                      <li>
-                         <eve_nws>
-                             <span class="eve_nws">Event:</span>
-                         </eve_nws>
                          <div class="info">
                              <a id="gstLutc" href="../events/guestlecture.php">Guest Lecture on Moral Values and Skill Development</a>
                          </div>
                      </li>
                      <li>
-                         <eve_nws>
-                             <span class="eve_nws">Event:</span>
-                         </eve_nws>
                          <div class="info">
                              <a id="palmeet19" href="../events/principal.php">Principal and Lecturers Meet on 18/06/2019</a>
                          </div>
                      </li>
                      <li>
-                         <eve_nws>
-                             <span class="eve_nws">News:</span>
-                         </eve_nws>
                          <div class="info">
                              <a id="topperlist19" href="../events/toppers.php">SECAB P.U. COLLEGE FOR WOMEN,VIJAYPUR TOPPERS LIST 2019</a>
                          </div>
                      </li>
                      <li>
-                         <eve_nws>
-                             <span class="eve_nws">Event:</span>
-                         </eve_nws>
                          <div class="info">
                              <a id="essay" href="../events/essay.php">Essay Competition</a>
                          </div>
                      </li>
 
                      <li>
-                         <eve_nws>
-                             <span class="eve_nws">Event:</span>
-                         </eve_nws>
                          <div class="info">
                              <a id="rdc19" href="../events/republic.php">Republic Day Celebration</a>
                          </div>
                      </li>
                      <li>
-                         <eve_nws>
-                             <span class="eve_nws">Event:</span>
-                         </eve_nws>
                          <div class="info">
                              <a id="anud19" href="../events/annual.php">Annual Day</a>
                          </div>
                      </li>
                      <li>
-                         <eve_nws>
-                             <span class="eve_nws">Event:</span>
-                         </eve_nws>
                          <div class="info">
                              <a id="FDay" href="../events/founders.php">Founder's Day</a>
                          </div>
