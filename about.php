@@ -1,5 +1,5 @@
 <div class="col-lg-7">
-    <h4 class="text-center mb-2"><u>ABOUT ASSOCIATION</u></h4>
+    <h4 class="heading text-center mb-2"><u>ABOUT ASSOCIATION</u></h4>
     <div class="about-cont">
         <div class="row">
             <div class="col-md-4 mt-5">

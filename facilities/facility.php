@@ -29,10 +29,10 @@ include '../header.php';
 
 <!--====== ABOUT PART START ======-->
 <hr>
-<div class="content pt-20">
+<div class="content pt-10">
     <div class="exam">
-        <div class="container ml-7 pb-5">
-            <h2 class="heading mb-3"><i><u>Laboratories</u></i></h2>
+        <div class="container pb-5">
+            <h2 class="heading mb-3"><u>LABORATORIES</u></h2>
             <p class="text-justify">
                 The college has well equipped laboratories in Physics, Chemistry, Biology, English and Geography subjects.
                 Practicals are conducted in batches and every student is given opportunities to perform practically independent.
@@ -71,7 +71,7 @@ include '../header.php';
                 </div>
             </div>
 
-            <h2 class="heading my-3"><i><u>Library</u></i></h2>
+            <h2 class="heading my-3"><u>LIBRARY</u></h2>
             <p class="text-justify">
                 Library is the hub of the institution. Hence, college is having an up-to-date library with reference
                 section, reading room facility to students and faculty members. It contains more than 18.585 books with a
@@ -119,7 +119,7 @@ include '../header.php';
                 </div>
             </div>
 
-            <h2 class="heading my-3"><i><u>Sports And Games</u></i></h2>
+            <h2 class="heading my-3"><u>SPORTS & GAMES</u></h2>
             <p class="text-justify">
                 A sound mind can only be found in a sound body therefore, unless physical and health education is made an
                 integral part of education in all schools and colleges, a healthy and emotionally stable person can not
@@ -183,7 +183,7 @@ include '../header.php';
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row m-3">
         <div class="col-lg-6" style="margin-left: 70px;">
             <h3 class="ml-5 mb-4" style="color: #b9a431;"><i class="fa fa-money" aria-hidden="true"></i> <i><u>SCHOLARSHIPS</u></i> </h3>
             <div class="row">

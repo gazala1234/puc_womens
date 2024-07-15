@@ -14,7 +14,7 @@
     include '../header.php';
     ?>
     <div class="p-5">
-        <h4 class="heading mb-4"><i><u>PHOTO GALLERY</u></i></h4>
+        <h4 class="heading mb-4"><u>PHOTO GALLERY</u></h4>
         <div class="carousel-gallery">
             <div class="swiper-container">
                 <div class="swiper-wrapper">

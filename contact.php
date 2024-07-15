@@ -42,7 +42,7 @@ include 'header.php';
 
 <!--====== CONTACT PART START ======-->
 <div class="contact-section ml-5">
-    <h2 class="heading"><i>Contact Details</i></h2>
+    <h2 class="heading"><u>Contact Details</u></h2>
     <div class="details">
         <p><strong>Email:</strong> contact@example.com</p>
         <p class="website"><strong>Website:</strong> <a href="https://pucw.secab.org/">pucw.secab.org</a></p>

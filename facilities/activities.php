@@ -17,8 +17,8 @@ include '../header.php';
 <hr>
 <div class="content pt-10">
     <div class="exam">
-        <div class="container ml-7 pb-5">
-            <h2 class="heading mb-3"><i><u>CO-CURRICULAR ACTIVITIES</u></i></h2>
+        <div class="container pb-5">
+            <h2 class="heading mb-3"><u>CO-CURRICULAR ACTIVITIES</u></h2>
             <p class="text-justify">
                 Apart from the college activities students participate in inter-collegiata competition conducted by
                 D.D.P.U. Department. Our students actively participate and bagged no of prizes in Dist. Divisional and

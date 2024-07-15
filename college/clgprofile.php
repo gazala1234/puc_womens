@@ -45,9 +45,9 @@ include '../header.php';
 <!--====== ABOUT PART START ======-->
 <hr>
 <div class="content pt-10">
-    <div class="row">
+    <div class="row m-3">
         <div class="abt-clg col-lg-7">
-            <h2 class="heading"><i><u>ABOUT COLLEGE</u></i></h2>
+            <h2 class="heading"><u>ABOUT COLLEGE</u></h2>
             <center>
                 <video width="600" class="mt-3" controls preload="auto" controlsList="nodownload">
                     <source src="../images/videos/pucw.mp4" type="video/mp4">
@@ -103,7 +103,7 @@ include '../header.php';
                 </div>
             </div>
             <div class="container m-2 pt-3">
-                <h2 class="heading text-center pb-3"><i>STRATEGIES</i></h2>
+                <h2 class="subheading text-center pb-3"><i>STRATEGIES</i></h2>
                 <div class="row">
                     <div class="col-md-6 strategy-item">
                         <div class="d-flex align-items-start">

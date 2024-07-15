@@ -28,11 +28,10 @@ include '../header.php';
 
 <!--====== ABOUT PART START ======-->
 <hr>
-<div class="content pt-20">
-    <div class="row">
+    <div class="row m-3">
         <div class="admission col-lg-7">
             <div class="container ml-5 pb-5">
-                <h2 class="heading mb-3"><i><u>ADMISSION DETAILS</u></i></h2>
+                <h2 class="heading mb-3"><u>ADMISSION DETAILS</u></h2>
                 <p class="text-justify">
                     The following information lays out the eligibility criteria and other requirements for
                     admission to courses at SECAB PU College for Women, Vijaypur.
@@ -62,9 +61,9 @@ include '../header.php';
                 </ul>
             </div>
         </div>
-        <?php include '../aside.php'; ?>
+        <?php include '../aside.php';?>
     </div> <!-- row -->
-</div> <!-- content -->
+<!-- content -->
 <!--====== ABOUT PART ENDS ======-->
 
 <!--====== FOOTER FILE INCLUDED ======-->

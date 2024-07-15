@@ -22,7 +22,7 @@
                     </div>
                 </button>
             <div class="modal-header">
-                <h5 class="modal-title sub_heading" id="enquiryModalLabel"><i><u>SECAB P.U.COLLEGE FOR WOMENS, VIJAYAPUR.</u></i></h5>
+                <h5 class="modal-title sub_heading" id="enquiryModalLabel"><u>SECAB P.U.COLLEGE FOR WOMENS, VIJAYAPUR.</u></h5>
             </div>
             <div class="modal-body">
                 <h5 class="modal-title text-center pb-3" id="enquiryModalLabel">ENQUIRY FORM</h5>

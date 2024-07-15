@@ -118,9 +118,9 @@ include '../header.php';
 <!--====== ABOUT PART START ======-->
 <hr>
 <div class="content pt-20 pb-20">
-    <div class="row">
+    <div class="row m-3">
         <div class="abt-clg col-lg-7">
-            <h2 class="heading">Courses Offered</h2>
+            <h2 class="heading">COURSES OFFERED</h2>
             <p class="text-justify pt-3 pl-5">SECAB P.U. College for women, Vijayapur offers courses in Arts,
                 Science and Commerce with the following subject Combinations.</p>
             <center>

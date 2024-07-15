@@ -14,11 +14,10 @@ include '../header.php';
 
 <!--====== ABOUT PART START ======-->
 <hr>
-<div class="content pt-20">
-    <div class="row">
+    <div class="row m-3">
         <div class="exam col-lg-7">
             <div class="container ml-5 pb-5">
-                <h2 class="heading mb-3"><i><u>EXAMINATION DETAILS</u></i></h2>
+                <h2 class="heading mb-3"><u>EXAMINATION DETAILS</u></h2>
                 <p class="text-justify">
                     Examination is an overall assessment and evaluation of the students knowledge or skill or Proficiency in a
                     particular subject. We want our college not to be entertainment outlets, but a place enriched with
@@ -33,11 +32,11 @@ include '../header.php';
                     <li class="list-group-item">learning to live together and</li>
                     <li class="list-group-item">to create new world order</li>
                 </ul>
-                <h4 class="subheading my-4"><i>To realize the true spirit of examination system, we lay down some 
+                <h4 class="subheading my-4"><i>To realize the true spirit of examination system, we lay down some
                     objectives of our examination department (Academic Council)</i></h4>
                 <ul class="a">
                     <li class="list-group-item">To measure effectiveness of teaching / learning process.</li>
-                    <li class="list-group-item"> To point out the strengths of the students to motivate and reinforce 
+                    <li class="list-group-item"> To point out the strengths of the students to motivate and reinforce
                         them and to identify weaknesses of the students to solve their problems.</li>
                     <li class="list-group-item">To measure academic achievements.</li>
                     <li class="list-group-item">To encourage healthy academic competition.</li>
@@ -114,9 +113,8 @@ include '../header.php';
                 </table>
             </div>
         </div>
-        <?php include '../aside.php'; ?>
+        <?php include '../aside.php';?>
     </div> <!-- row -->
-</div> <!-- content -->
 <!--====== ABOUT PART ENDS ======-->
 
 <!--====== FOOTER FILE INCLUDED ======-->

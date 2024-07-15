@@ -214,9 +214,9 @@ include '../header.php';
 
 <!--====== ABOUT PART START ======-->
 <hr>
-<div class="row mt-3 pb-4">
+<div class="row m-3 pb-4">
     <div class="container">
-        <h2 class="heading mb-3"><i><u>ACADEMIC RESULTS</u></i></h2>
+        <h2 class="heading mb-3"><u>ACADEMIC RESULTS</u></h2>
         <ul class="list-group list-group-flush procedure-list">
             <li class="list-group-item">Twentieth Century is a century of “Excel or exit”. In this era of Globalization, Quality Education is one of the prerequisites to survive and enhance “Quality human Resource”.</li>
             <li class="list-group-item">Students are the real man-power of the nation, who will build “India” into a super power. If we equip students with required knowledge and skills, they will contribute towards the Socio-economic development of the nation.</li>
@@ -249,7 +249,7 @@ include '../header.php';
 
         <div class="row mt-3">
             <div class="col-lg-4 firts">
-                <h2 class="subheading my-4">SCIENCE PLACEMENTS 1985-2018</h2>
+                <h2 class="subheading my-4"><i>SCIENCE PLACEMENTS 1985-2018</i></h2>
                 <div class="row placement pl-5">
                     <div class="col-sm-4">
                         <div class="placement-item">
