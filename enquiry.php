@@ -27,7 +27,7 @@
                 <h5 class="modal-title text-center pb-3" id="enquiryModalLabel">ENQUIRY FORM</h5>
                 <img class="d-block w-100" src="../images/slider/toppers2018.jpg" alt="Third slide" width="300" height="200">
                 <form id="enquiryForm">
-                    <h6 class="modal-title mt-2">Student Details</h6>
+                    <h6 class="modal-title mt-4">Student Details</h6>
                     <hr>
                     <div class="form-group row">
                         <label for="name" class="col-sm-4 col-form-label">Student Name</label>
@@ -105,14 +105,13 @@
             </div>
             <div class="modal-footer justify-content-center">
                 <button type="submit" class="btn btn-primary">Submit</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
             </div>
         </div>
     </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <script>

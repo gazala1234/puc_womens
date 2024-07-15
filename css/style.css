@@ -1213,6 +1213,93 @@ p {
 }
 
 /* table styling */
+
+.carousel-gallery {
+    margin: 50px 0;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.swiper-slide {
+    display: inline-block;
+    width: 20%;
+    margin-right: 10px;
+}
+
+.swiper-slide a {
+    display: block;
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 3px 2px 20px 0px rgba(0, 0, 0, .2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.swiper-slide a:hover {
+    transform: scale(1.1);
+}
+
+.swiper-slide .image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.swiper-slide .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 20, 20, .8);
+    text-align: center;
+    opacity: 0;
+    transition: all .2s linear;
+}
+
+.swiper-slide:hover .overlay {
+    opacity: 0.4;
+}
+
+.swiper-slide .overlay em {
+    color: #fff;
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+.swiper-pagination {
+    position: relative;
+    bottom: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    transition: all .2s linear;
+}
+
+.swiper-pagination .swiper-pagination-bullet:hover {
+    opacity: .7;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #d63031;
+    transform: scale(1.1, 1.1);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

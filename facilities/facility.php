@@ -37,11 +37,39 @@ include '../header.php';
                 The college has well equipped laboratories in Physics, Chemistry, Biology, English and Geography subjects.
                 Practicals are conducted in batches and every student is given opportunities to perform practically independent.
             </p>
-            <div class="gallery mt-4">
-                <div class="gallery-item"><img src="/images/facilities/physics.jpg" alt="Image 1"></div>
-                <div class="gallery-item"><img src="/images/facilities/chemestry.jpg" alt="Image 2"></div>
-                <div class="gallery-item"><img src="/images/facilities/biology.jpg" alt="Image 3"></div>
-            </div> <!-- gallery -->
+            <div class="carousel-gallery">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="/images/facilities/physics.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/facilities/physics.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/facilities/chemestry.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/facilities/chemestry.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/facilities/biology.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/facilities/biology.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <h2 class="heading my-3"><i><u>Library</u></i></h2>
             <p class="text-justify">
@@ -54,11 +82,42 @@ include '../header.php';
                 facilities are being upgraded with automation internet, Career guidance cell. It will be open from 8 a.m.
                 to 6 p.m. in all working days.
             </p>
-            <div class="gallery mt-4">
-                <div class="gallery-item"><img src="/images/facilities/libr1.jpg" alt="Image 1"></div>
-                <div class="gallery-item"><img src="/images/facilities/libr2.jpg" alt="Image 2"></div>
-                <div class="gallery-item"><img src="/images/facilities/libr3.jpg" alt="Image 3"></div>
-            </div> <!-- gallery -->
+            <div class="carousel-gallery">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="/images/facilities/libr1.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/facilities/libr1.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/facilities/libr2.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/facilities/libr2.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/facilities/libr3.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/facilities/libr3.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
 
             <h2 class="heading my-3"><i><u>Sports And Games</u></i></h2>
             <p class="text-justify">
@@ -71,16 +130,60 @@ include '../header.php';
                 strong in field events and in sports and games. College has a track record of playing games and athletics
                 at state and national level.
             </p>
-            <div class="gallery mt-4">
-                <div class="gallery-item"><img src="/images/facilities/sports1.jpg" alt="Image 1"></div>
-                <div class="gallery-item"><img src="/images/facilities/sports2.jpg" alt="Image 2"></div>
-                <div class="gallery-item"><img src="/images/facilities/sports3.jpg" alt="Image 3"></div>
-                <div class="gallery-item"><img src="/images/facilities/sports4.jpg" alt="Image 4"></div>
-                <div class="gallery-item"><img src="/images/facilities/sports5.jpg" alt="Image 5"></div>
-            </div> <!-- gallery -->
+            <div class="carousel-gallery">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="/images/facilities/sports1.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/facilities/sports1.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/facilities/sports2.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/facilities/sports2.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/facilities/sports3.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/facilities/sports3.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/facilities/sports4.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/facilities/sports4.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/facilities/sports5.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/facilities/sports5.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row mb-3">
+    <div class="row">
         <div class="col-lg-6" style="margin-left: 70px;">
             <h3 class="ml-5 mb-4" style="color: #b9a431;"><i class="fa fa-money" aria-hidden="true"></i> <i><u>SCHOLARSHIPS</u></i> </h3>
             <div class="row">
@@ -136,7 +239,7 @@ include '../header.php';
                     <i class="fa fa-video-camera" aria-hidden="true"></i>
                     <span class="title">CCTV</span>
                 </div>
-                <div class="facility-details">   
+                <div class="facility-details">
                     <p class="description">The CCTV cameras are installed in the college campus for the safety & security of the students & affirmation of discipline in the campus.</p>
                 </div>
             </div>

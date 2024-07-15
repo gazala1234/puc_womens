@@ -30,16 +30,87 @@ include '../header.php';
                 debate, singing, sketching, story writing, quiz etc.
             </p>
 
-            <div class="gallery mt-4">
-                <div class="gallery-item"><img src="/images/activities/1.jpg" alt="Image 1"></div>
-                <div class="gallery-item"><img src="/images/activities/2.jpg" alt="Image 2"></div>
-                <div class="gallery-item"><img src="/images/activities/3.jpg" alt="Image 3"></div>
-                <div class="gallery-item"><img src="/images/activities/4.jpg" alt="Image 4"></div>
-                <div class="gallery-item"><img src="/images/activities/5.jpg" alt="Image 5"></div>
-                <div class="gallery-item"><img src="/images/activities/6.jpg" alt="Image 6"></div>
-                <div class="gallery-item"><img src="/images/activities/7.jpg" alt="Image 7"></div>
-                <div class="gallery-item"><img src="/images/activities/8.jpg" alt="Image 8"></div>
-            </div> <!-- gallery -->
+            <div class="carousel-gallery">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="/images/activities/1.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/activities/1.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/activities/2.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/activities/2.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/activities/3.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/activities/3.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/activities/4.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/activities/4.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/activities/5.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/activities/5.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/activities/6.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/activities/6.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/activities/7.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/activities/7.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/images/activities/8.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(/images/activities/8.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
 
             <h4 class="mt-5 text-center" style="color: #b9a431;"><i>CALENDER OF EVENTS</i></h4>
             <table class="table table-striped text-center mt-4">

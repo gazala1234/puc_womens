@@ -107,22 +107,28 @@
          <div style="width:95%" class="tab-content tabs">
              <div role="tabpanel" class="tab-pane fade in active" id="Section1">
                  <h3><b>STUDENT CORNER</b></h3>
-                 <marquee direction="up" height="300px" onmouseover="this.stop()" onmouseout="this.start()">
-                     <a id="tchr-dy" href="#"><i class="fa fa-caret-right"> </i> TEACHER'S DAY</a><br><br>
-                     <a id="gst-lectr" href="#"><i class="fa fa-caret-right"> </i> GUEST LECTURE</a><br><br>
-                     <a id="cult-act" href="#"><i class="fa fa-caret-right"> </i> CULTURAL ACTIVITIES</a><br><br>
-                     <a id="bskt-bal" href="#"><i class="fa fa-caret-right"> </i> STATE LEVEL BASKETBALL TEAM PARTICIPATED AT MYSURU ON 26, 27th OCTOBER 2016.</a><br><br>
-                     <a id="esy-comp" href="#"><i class="fa fa-caret-right"> </i> ESSAY COMPETITION</a><br><br>
-                     <a id="sches" href="#"><i class="fa fa-caret-right"> </i> SKETCHES</a><br><br>
-                     <a id="ppr-clp" href="#"><i class="fa fa-caret-right"> </i> NEWS PAPER CLIPPINGS</a>
-                 </marquee>
+                 <div style="height: 300px; overflow-y: auto;">
+                     <marquee direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
+                         <a id="tchr-dy" href="#"><i class="fa fa-caret-right"> </i> TEACHER'S DAY</a><br><br>
+                         <a id="gst-lectr" href="#"><i class="fa fa-caret-right"> </i> GUEST LECTURE</a><br><br>
+                         <a id="cult-act" href="#"><i class="fa fa-caret-right"> </i> CULTURAL ACTIVITIES</a><br><br>
+                         <a id="bskt-bal" href="#"><i class="fa fa-caret-right"> </i> STATE LEVEL BASKETBALL TEAM PARTICIPATED AT MYSURU ON 26, 27th OCTOBER 2016.</a><br><br>
+                         <a id="esy-comp" href="#"><i class="fa fa-caret-right"> </i> ESSAY COMPETITION</a><br><br>
+                         <a id="sches" href="#"><i class="fa fa-caret-right"> </i> SKETCHES</a><br><br>
+                         <a id="ppr-clp" href="#"><i class="fa fa-caret-right"> </i> NEWS PAPER CLIPPINGS</a>
+                     </marquee>
+                 </div>
              </div>
              <div role="tabpanel" class="tab-pane fade" id="Section2">
                  <h3><b>STUDENT RESOURCE</b></h3>
-                 <a id="syllbs" href="#"><i class="fa fa-caret-right"> </i> SYLLABUS</a><br><br>
-                 <a id="qsion" href="#"><i class="fa fa-caret-right"> </i> II YEAR English 1 Marks Questions & Answers</a><br>
+                 <div style="height: 300px; overflow-y: auto;">
+                     <marquee direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
+                         <a id="syllbs" href="#"><i class="fa fa-caret-right"> </i> SYLLABUS</a><br><br>
+                         <a id="qsion" href="#"><i class="fa fa-caret-right"> </i> II YEAR English 1 Marks Questions & Answers</a><br>
+                     </marquee>
+                 </div>
              </div>
          </div>
-     </div><!--student corner-->
+     </div><!--student resources-->
      </div> <!-- about-event -->
  </aside>
