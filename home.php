@@ -1,13 +1,12 @@
 <!--====== HEADER FILE INCLUDED ======-->
 <?php
-    include 'header.php';
+include 'header.php';
 ?>
 
-<!--====== SLIDER PART START ======-->
+<!--====== SLIDER FILE INCLUDED ======-->
 <?php
-    include 'slider.php';
+include 'slider.php';
 ?>
-<!--====== SLIDER PART ENDS ======-->
 
 <!--====== ABOUT PART START ======-->
 <hr>
@@ -25,3 +24,9 @@
 <?php
 include 'footer.php';
 ?>
+
+<!--====== ENQUIRY FILE INCLUDED ======-->
+<?php
+include 'enquiry.php';
+?>
+

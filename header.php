@@ -79,7 +79,7 @@
         <div class="navigation">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 col-md-10 col-sm-9 col-8">
+                    <div class="col-lg-12 col-md-10 col-sm-9 col-8">
                         <nav class="navbar navbar-expand-lg">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="icon-bar"></span>
@@ -90,7 +90,7 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item">
-                                        <a class="active" href="../home.php">Home</a>
+                                        <a href="../home.php">Home</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="../college/clgprofile.php">College Profile</a>
@@ -126,7 +126,7 @@
                                         <a href="https://alumni.secab.org/">Alumni</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="contact.php">Contact</a>
+                                        <a href="../contact.php">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -135,7 +135,18 @@
                 </div> <!-- row -->
             </div> <!-- container -->
         </div>
-
     </header>
+
+    <script>
+        // Get the current URL
+        var currentUrl = window.location.href;
+
+        // Check each navigation link and add active class if it matches the current URL
+        document.querySelectorAll('.navbar-nav a').forEach(function(element) {
+            if (element.href === currentUrl) {
+                element.classList.add('active');
+            }
+        });
+    </script>
 
     <!--====== HEADER PART ENDS ======-->
