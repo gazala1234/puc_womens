@@ -44,7 +44,6 @@ include '../header.php';
 
 <!--====== ABOUT PART START ======-->
 <hr>
-<div class="content pt-10">
     <div class="row m-3">
         <div class="abt-clg col-lg-7">
             <h2 class="heading"><u>ABOUT COLLEGE</u></h2>
@@ -154,7 +153,6 @@ include '../header.php';
         </div>
         <?php include '../aside.php'; ?>
     </div> <!-- row -->
-</div> <!-- content -->
 <!--====== ABOUT PART ENDS ======-->
 
 <!--====== FOOTER FILE INCLUDED ======-->

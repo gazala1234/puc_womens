@@ -1,7 +1,7 @@
  <!-- Bootstrap CSS -->
  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 
- <aside class="col-lg-4 ml-5">
+ <aside class="col-lg-4 ml-5 mt-5">
      <div class="about-event">
          <h4 class="text-center">NEWS and EVENTS</h4>
          <div style="height: 400px;" class="mt-3">
@@ -15,89 +15,100 @@
 
                      <li>
                          <div class="info">
-                             <a id="malgld" href="../events/malbar.php">Malbar Gold Event</a>
+                             <a href="../events/malbar.php">Malbar Gold Event</a>
                          </div>
                      </li>
                      <li>
                          <div class="info">
-                             <a id="cgprg" href="../events/career.php">Career Guidance Program</a>
+                             <a href="../events/career.php">Career Guidance Program</a>
                          </div>
                      </li>
                      <li>
                          <div class="info">
-                             <a id="gstLutc" href="../events/guestlecture.php">Guest Lecture on Moral Values and Skill Development</a>
+                             <a href="../events/guestlecture.php">Guest Lecture on Moral Values and Skill Development</a>
                          </div>
                      </li>
                      <li>
                          <div class="info">
-                             <a id="palmeet19" href="../events/principal.php">Principal and Lecturers Meet on 18/06/2019</a>
+                             <a href="../events/principal.php">Principal and Lecturers Meet on 18/06/2019</a>
                          </div>
                      </li>
                      <li>
                          <div class="info">
-                             <a id="topperlist19" href="../events/toppers.php">SECAB P.U. COLLEGE FOR WOMEN,VIJAYPUR TOPPERS LIST 2019</a>
+                             <a href="../events/toppers.php">SECAB P.U. COLLEGE FOR WOMEN,VIJAYPUR TOPPERS LIST 2019</a>
                          </div>
                      </li>
                      <li>
                          <div class="info">
-                             <a id="essay" href="../events/essay.php">Essay Competition</a>
+                             <a href="../events/essay.php">Essay Competition</a>
                          </div>
                      </li>
 
                      <li>
                          <div class="info">
-                             <a id="rdc19" href="../events/republic.php">Republic Day Celebration</a>
+                             <a href="../events/republic.php">Republic Day Celebration</a>
                          </div>
                      </li>
                      <li>
                          <div class="info">
-                             <a id="anud19" href="../events/annual.php">Annual Day</a>
+                             <a href="../events/annual.php">Annual Day</a>
                          </div>
                      </li>
                      <li>
                          <div class="info">
-                             <a id="FDay" href="../events/founders.php">Founder's Day</a>
+                             <a href="../events/founders.php">Founder's Day</a>
+                         </div>
+                     </li>
+                     <h4>Student Corners</h4>
+                     <li>
+                         <div class="info">
+                             <a href="../events/teachers.php">Teacher's Day</a>
+                         </div>
+                     </li>
+                     <li>
+                         <div class="info">
+                             <a href="../events/lecture.php">Guest Lecture</a>
+                         </div>
+                     </li>
+                     <li>
+                         <div class="info">
+                             <a href="../events/activity.php">Cultural Activities</a>
+                         </div>
+                     </li>
+                     <li>
+                         <div class="info">
+                             <a href="../events/sports.php">State Level Basketball Team Participated at Mysuru On 26, 27th October 2016.</a>
+                         </div>
+                     </li>
+                     <li>
+                         <div class="info">
+                             <a href="../events/essay.php">Essay Competition</a>
+                         </div>
+                     </li>
+                     <li>
+                         <div class="info">
+                             <a href="../events/sketch.php">Sketches</a>
+                         </div>
+                     </li>
+                     <li>
+                         <div class="info">
+                             <a href="../events/news.php">News Paper Clippings</a>
+                         </div>
+                     </li>
+                     <h4>Student Resources</h4>
+                     <li>
+                         <div class="info">
+                             <a href="../events/syllabus.php">Syllabus</a>
+                         </div>
+                     </li>
+                     <li>
+                         <div class="info">
+                             <a href="../events/qp.php">II Year English 1 Marks Questions & Answers</a>
                          </div>
                      </li>
                  </ul>
              </marquee>
          </div>
      </div> <!-- news and events -->
-     <hr>
-
-     <!-- student resources -->
-     <div style="margin-top:20px" class="tab" role="tabpanel">
-         <!-- Nav tabs -->
-         <ul class="nav nav-tabs" role="tablist">
-             <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">STUDENT CORNER</a></li>
-             <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">STUDENT RESOURCE</a></li>
-         </ul>
-         <!--Tab panes-->
-         <div style="width:95%" class="tab-content tabs">
-             <div role="tabpanel" class="tab-pane fade in active" id="Section1">
-                 <h3><b>STUDENT CORNER</b></h3>
-                 <div style="height: 300px; overflow-y: auto;">
-                     <marquee direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
-                         <a href="../students/teachers.php"><i class="fa fa-caret-right"> </i> TEACHER'S DAY</a><br><br>
-                         <a href="../students/lecture.php"><i class="fa fa-caret-right"> </i> GUEST LECTURE</a><br><br>
-                         <a href="../students/activity.php"><i class="fa fa-caret-right"> </i> CULTURAL ACTIVITIES</a><br><br>
-                         <a href="../students/sports.php"><i class="fa fa-caret-right"> </i> STATE LEVEL BASKETBALL TEAM PARTICIPATED AT MYSURU ON 26, 27th OCTOBER 2016.</a><br><br>
-                         <a href="../students/essay.php"><i class="fa fa-caret-right"> </i> ESSAY COMPETITION</a><br><br>
-                         <a href="../students/sketch.php"><i class="fa fa-caret-right"> </i> SKETCHES</a><br><br>
-                         <a href="../students/news.php"><i class="fa fa-caret-right"> </i> NEWS PAPER CLIPPINGS</a>
-                     </marquee>
-                 </div>
-             </div>
-             <div role="tabpanel" class="tab-pane fade" id="Section2">
-                 <h3><b>STUDENT RESOURCE</b></h3>
-                 <div style="height: 300px; overflow-y: auto;">
-                     <marquee direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
-                         <a href="../students/syllabus.php"><i class="fa fa-caret-right"> </i> SYLLABUS</a><br><br>
-                         <a href="../students/qp.php"><i class="fa fa-caret-right"> </i> II YEAR English 1 Marks Questions & Answers</a><br>
-                     </marquee>
-                 </div>
-             </div>
-         </div>
-     </div><!--student resources-->
      </div> <!-- about-event -->
  </aside>

@@ -117,7 +117,7 @@ include '../header.php';
 
 <!--====== ABOUT PART START ======-->
 <hr>
-<div class="content pt-20 pb-20">
+<div class="content pb-20">
     <div class="row m-3">
         <div class="abt-clg col-lg-7">
             <h2 class="heading">COURSES OFFERED</h2>

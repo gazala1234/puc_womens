@@ -138,15 +138,24 @@
     </header>
 
     <script>
-        // Get the current URL
-        var currentUrl = window.location.href;
+    // Get the current URL
+    var currentUrl = window.location.href;
 
-        // Check each navigation link and add active class if it matches the current URL
-        document.querySelectorAll('.navbar-nav a').forEach(function(element) {
-            if (element.href === currentUrl) {
-                element.classList.add('active');
+    // Check each navigation link and add active class if it matches the current URL
+    document.querySelectorAll('.navbar-nav a').forEach(function(element) {
+        if (element.href === currentUrl) {
+            element.classList.add('active');
+            
+            // Find the closest parent with class 'nav-item' and add 'active' class to its first child <a>
+            var navItem = element.closest('.nav-item');
+            if (navItem) {
+                var mainLink = navItem.querySelector('a');
+                if (mainLink) {
+                    mainLink.classList.add('active');
+                }
             }
-        });
-    </script>
+        }
+    });
+</script>
 
     <!--====== HEADER PART ENDS ======-->
