@@ -28,9 +28,7 @@ include '../header.php';
     }
 
     .placement div {
-        margin: 1px;
-        margin-bottom: 10px;
-        padding: 7px;
+        margin-left: 2%;
         border-radius: 10px;
     }
 
@@ -42,7 +40,7 @@ include '../header.php';
         text-align: center;
         margin: 1px;
         padding: 7px;
-        box-shadow: 2px 2px 10px #1A2954;
+        /* box-shadow: 2px 2px 10px #1A2954; */
         border-radius: 10px;
     }
 
@@ -52,7 +50,6 @@ include '../header.php';
 
     .placement .placement-item .placement-info {
         margin-top: 10px;
-        color: #086A87;
         font-size: 16px;
         font-weight: bold;
     }
@@ -247,195 +244,191 @@ include '../header.php';
             got positive results by this experiment.
         </p>
 
-        <div class="row mt-3">
-            <div class="col-lg-4 firts">
-                <h2 class="subheading my-4"><i>SCIENCE PLACEMENTS 1985-2018</i></h2>
-                <div class="row placement pl-5">
-                    <div class="col-sm-4">
-                        <div class="placement-item">
-                            <i style="color: #E82E5A" class="fa fa-user-md" aria-hidden="true"></i>
-                            <div class="placement-info">
-                                MBBS : 54+
-                            </div>
+        <div class="col-lg-12 firts">
+            <h2 class="subheading my-4 text-center"><i>SCIENCE PLACEMENTS 1985-2018</i></h2>
+            <div class="row placement">
+                <div class="col-sm-2">
+                    <div class="placement-item">
+                        <i style="color: #3c628b" class="fa fa-user-md" aria-hidden="true"></i>
+                        <div class="placement-info">
+                            MBBS : 54+
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="placement-item">
-                            <i style="color: #34A853" class="fa fa-envira" aria-hidden="true"></i>
-                            <div class="placement-info">
-                                BAMS : 37
-                            </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="placement-item">
+                        <i style="color: #3c628b" class="fa fa-envira" aria-hidden="true"></i>
+                        <div class="placement-info">
+                            BAMS : 37
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="placement-item">
-                            <i style="color: #34A853" class="fa fa-pagelines" aria-hidden="true"></i>
-                            <div class="placement-info">
-                                BUMS : 38
-                            </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="placement-item">
+                        <i style="color: #3c628b" class="fa fa-pagelines" aria-hidden="true"></i>
+                        <div class="placement-info">
+                            BUMS : 38
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="placement-item">
-                            <i style="color: #1784AB" class="fa fa-user-plus" aria-hidden="true"></i>
-                            <div class="placement-info">
-                                BDS : 62
-                            </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="placement-item">
+                        <i style="color: #3c628b" class="fa fa-user-plus" aria-hidden="true"></i>
+                        <div class="placement-info">
+                            BDS : 62
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-8">
-                        <div class="placement-item">
-                            <i style="color: #F67420" class="fa fa-cogs" aria-hidden="true"></i>
-                            <div class="placement-info">
-                                Engineering : 277
-                            </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="placement-item">
+                        <i style="color: #3c628b" class="fa fa-cogs" aria-hidden="true"></i>
+                        <div class="placement-info">
+                            Engineering : 277
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="placement-item">
-                            <i style="color: #15AABF" class="fa fa-fort-awesome" aria-hidden="true"></i>
-                            <div class="placement-info">
-                                B Architect : 14
-                            </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="placement-item">
+                        <i style="color: #3c628b" class="fa fa-fort-awesome" aria-hidden="true"></i>
+                        <div class="placement-info">
+                            B Architect : 14
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="placement-item">
-                            <i style="color: #4285F4" class="fa fa-thermometer-full" aria-hidden="true"></i>
-                            <div class="placement-info">
-                                BHMS : 12
-                            </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="placement-item">
+                        <i style="color: #3c628b" class="fa fa-thermometer-full" aria-hidden="true"></i>
+                        <div class="placement-info">
+                            BHMS : 12
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="placement-item">
-                            <i style="color: #34A853" class="fa fa-tree" aria-hidden="true"></i>
-                            <div class="placement-info">
-                                B.Sc Agri : 22
-                            </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="placement-item">
+                        <i style="color: #3c628b" class="fa fa-tree" aria-hidden="true"></i>
+                        <div class="placement-info">
+                            B.Sc Agri : 22
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="placement-item">
-                            <i style="color: #EA4335" class="fa fa-bar-chart" aria-hidden="true"></i>
-                            <div class="placement-info">
-                                CA-CPT : 03
-                            </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="placement-item">
+                        <i style="color: #3c628b" class="fa fa-bar-chart" aria-hidden="true"></i>
+                        <div class="placement-info">
+                            CA-CPT : 03
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-8">
-                        <div class="placement-item">
-                            <i class="fa fa-leanpub" aria-hidden="true"></i>
-                            <div class="placement-info">
-                                Primary Teacher : 1000+
-                            </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="placement-item">
+                        <i style="color: #3c628b" class="fa fa-leanpub" aria-hidden="true"></i>
+                        <div class="placement-info">
+                            Primary Teacher : 1000+
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="col-sm-8">
-                <div class="demo">
-                    <div class="row">
-                        <br>
-                        <div class="main-timeline">
-                            <center>
-                                <h2 class="subheading my-4"><i>10 Years College Results in PUC II Year</i></h2>
-                            </center>
-                            <div class="timeline" data-heading="2009-10">
-                                <div class="timeline-content">
-                                    <p class="description">
-                                        <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>218 </span><br><br>
-                                        <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>162 </span><br><br>
-                                        <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>74.31 </span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="timeline" data-heading="2010-11">
-                                <div class="timeline-content">
-                                    <p class="description">
-                                        <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>277 </span><br><br>
-                                        <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>184 </span><br><br>
-                                        <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>67.00 </span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="timeline" data-heading="2011-12">
-                                <div class="timeline-content">
-                                    <p class="description">
-                                        <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>286 </span><br><br>
-                                        <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>209 </span><br><br>
-                                        <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>73.42 </span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="timeline" data-heading="2012-13">
-                                <div class="timeline-content">
-                                    <p class="description">
-                                        <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>291 </span><br><br>
-                                        <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>221 </span><br><br>
-                                        <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>76.00 </span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="timeline" data-heading="2013-14">
-                                <div class="timeline-content">
-                                    <p class="description">
-                                        <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>239 </span><br><br>
-                                        <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>173 </span><br><br>
-                                        <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>72.38 </span>
-                                    </p>
-                                </div>
-                            </div>
+        <div class="col-lg-12">
+            <div class="row">
+                <br>
+                <div class="main-timeline">
+                    <center>
+                        <h2 class="subheading my-4"><i>10 Years College Results in PUC II Year</i></h2>
+                    </center>
+                    <div class="timeline" data-heading="2009-10">
+                        <div class="timeline-content">
+                            <p class="description">
+                                <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>218 </span><br><br>
+                                <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>162 </span><br><br>
+                                <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>74.31 </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline" data-heading="2010-11">
+                        <div class="timeline-content">
+                            <p class="description">
+                                <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>277 </span><br><br>
+                                <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>184 </span><br><br>
+                                <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>67.00 </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline" data-heading="2011-12">
+                        <div class="timeline-content">
+                            <p class="description">
+                                <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>286 </span><br><br>
+                                <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>209 </span><br><br>
+                                <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>73.42 </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline" data-heading="2012-13">
+                        <div class="timeline-content">
+                            <p class="description">
+                                <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>291 </span><br><br>
+                                <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>221 </span><br><br>
+                                <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>76.00 </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline" data-heading="2013-14">
+                        <div class="timeline-content">
+                            <p class="description">
+                                <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>239 </span><br><br>
+                                <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>173 </span><br><br>
+                                <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>72.38 </span>
+                            </p>
+                        </div>
+                    </div>
 
-                            <div class="timeline" data-heading="2014-15">
-                                <div class="timeline-content">
-                                    <p class="description">
-                                        <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>258 </span><br><br>
-                                        <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>199 </span><br><br>
-                                        <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>77.13 </span>
-                                    </p>
-                                </div>
-                            </div>
+                    <div class="timeline" data-heading="2014-15">
+                        <div class="timeline-content">
+                            <p class="description">
+                                <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>258 </span><br><br>
+                                <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>199 </span><br><br>
+                                <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>77.13 </span>
+                            </p>
+                        </div>
+                    </div>
 
-                            <div class="timeline bottom" data-heading="2015-16">
-                                <div class="timeline-content">
-                                    <p class="description">
-                                        <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>245 </span><br><br>
-                                        <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>199 </span><br><br>
-                                        <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>73.00 </span>
-                                    </p>
-                                </div>
-                            </div>
+                    <div class="timeline bottom" data-heading="2015-16">
+                        <div class="timeline-content">
+                            <p class="description">
+                                <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>245 </span><br><br>
+                                <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>199 </span><br><br>
+                                <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>73.00 </span>
+                            </p>
+                        </div>
+                    </div>
 
-                            <div class="timeline bottom" data-heading="2016-17">
-                                <div class="timeline-content">
-                                    <p class="description">
-                                        <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>313 </span><br><br>
-                                        <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>203 </span><br><br>
-                                        <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>64.00 </span>
-                                    </p>
-                                </div>
-                            </div>
+                    <div class="timeline bottom" data-heading="2016-17">
+                        <div class="timeline-content">
+                            <p class="description">
+                                <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>313 </span><br><br>
+                                <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>203 </span><br><br>
+                                <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>64.00 </span>
+                            </p>
+                        </div>
+                    </div>
 
-                            <div class="timeline bottom" data-heading="2017-18">
-                                <div class="timeline-content">
-                                    <p class="description">
-                                        <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>235 </span><br><br>
-                                        <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>165 </span><br><br>
-                                        <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>70.21 </span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="timeline" data-heading="2018-19">
-                                <div class="timeline-content">
-                                    <p class="description">
-                                        <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>228 </span><br><br>
-                                        <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>157 </span><br><br>
-                                        <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>69% </span>
-                                    </p>
-                                </div>
-                            </div>
+                    <div class="timeline bottom" data-heading="2017-18">
+                        <div class="timeline-content">
+                            <p class="description">
+                                <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>235 </span><br><br>
+                                <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>165 </span><br><br>
+                                <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>70.21 </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline" data-heading="2018-19">
+                        <div class="timeline-content">
+                            <p class="description">
+                                <span><i class="fa fa-book">&nbsp;</i> Appeared <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>228 </span><br><br>
+                                <span><i class="fa fa-check-square">&nbsp;</i> Passed <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>157 </span><br><br>
+                                <span><i class="fa fa-percent">&nbsp;</i> Percent <i class="fa fa-arrows-h" aria-hidden="true">&nbsp;&nbsp;</i>69% </span>
+                            </p>
                         </div>
                     </div>
                 </div>
