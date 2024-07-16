@@ -6,9 +6,9 @@ include '../header.php';
 <!--====== ABOUT PART START ======-->
 <hr>
 <div class="content pt-10">
-    <div class="row">
+    <div class="row m-3">
         <div class="col-lg-7">
-            <h2 class="heading"><i><u>Republic Day Celebration</u></i></h2>
+            <h2 class="heading"><u>Republic Day Celebration</u></h2>
             <p class="text-justify pt-3 pl-5">Secab PU College for Women, celebrated Republic Day with great ardor. 
                 The chief guest Sri. Biradar Devindrappa, 111 additional session dist judge, guest of honour Sri. 
                 Bhola pundit, Senior civil judge and Sri. A.S.Patil, Gen. Secretary of Secab institution spoke and 

@@ -6,9 +6,9 @@ include '../header.php';
 <!--====== ABOUT PART START ======-->
 <hr>
 <div class="content pt-10">
-    <div class="row">
+    <div class="row m-3">
         <div class="col-lg-7">
-            <h2 class="heading"><i><u>Essay Compatation</u></i></h2>
+            <h2 class="heading"><u>Essay Compatation</u></h2>
             <p class="text-justify pt-3 pl-5">Achievement is a potential chiseled in to more perfect state through 
                 vision, dedication and determination. The whizz girls' of SECAB PU College for Women, Shrinidhi 
                 Joshi and Shruti Anantpur of Ist yr Arts bagged 2nd prize and received cash prize of Rs.15000 and a 

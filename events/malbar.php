@@ -15,9 +15,9 @@ include '../header.php';
 <!--====== ABOUT PART START ======-->
 <hr>
 <div class="content pt-10">
-    <div class="row">
+    <div class="row m-3">
         <div class="col-lg-7">
-            <h2 class="heading"><i><u>Malbar Gold Event</u></i></h2>
+            <h2 class="heading"><u>Malbar Gold Event</u></h2>
             <p class="text-justify pt-3 pl-5">Old-Age wisdom says that hard work always pays off in life. Malabar gold 
                 and times of India group organized and selected only our college i.e. Secab PU college for Women, 
                 for the unique golden girls talent in various genres on 11/11/19, it is an appease moment to divulge 

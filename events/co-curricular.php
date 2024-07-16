@@ -15,9 +15,9 @@ include '../header.php';
 <!--====== ABOUT PART START ======-->
 <hr>
 <div class="content pt-10">
-    <div class="row">
+    <div class="row m-3">
         <div class="col-lg-7">
-            <h2 class="heading"><i><u>District level co-curricular</u></i></h2>
+            <h2 class="heading"><u>District level co-curricular</u></h2>
             <p class="text-justify pt-3 pl-5">Efforts are the process, achievement is the outcome and extracurricular
                 activities are the part of healthy institution. Today i.e. on 13/11/19, District level co-curricular
                 an activity was conducted at Roopa Devi PU College, Vijayapur. The effervescent girls of

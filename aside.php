@@ -78,13 +78,13 @@
                  <h3><b>STUDENT CORNER</b></h3>
                  <div style="height: 300px; overflow-y: auto;">
                      <marquee direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
-                         <a id="tchr-dy" href="#"><i class="fa fa-caret-right"> </i> TEACHER'S DAY</a><br><br>
-                         <a id="gst-lectr" href="#"><i class="fa fa-caret-right"> </i> GUEST LECTURE</a><br><br>
-                         <a id="cult-act" href="#"><i class="fa fa-caret-right"> </i> CULTURAL ACTIVITIES</a><br><br>
-                         <a id="bskt-bal" href="#"><i class="fa fa-caret-right"> </i> STATE LEVEL BASKETBALL TEAM PARTICIPATED AT MYSURU ON 26, 27th OCTOBER 2016.</a><br><br>
-                         <a id="esy-comp" href="#"><i class="fa fa-caret-right"> </i> ESSAY COMPETITION</a><br><br>
-                         <a id="sches" href="#"><i class="fa fa-caret-right"> </i> SKETCHES</a><br><br>
-                         <a id="ppr-clp" href="#"><i class="fa fa-caret-right"> </i> NEWS PAPER CLIPPINGS</a>
+                         <a href="../students/teachers.php"><i class="fa fa-caret-right"> </i> TEACHER'S DAY</a><br><br>
+                         <a href="../students/lecture.php"><i class="fa fa-caret-right"> </i> GUEST LECTURE</a><br><br>
+                         <a href="../students/activity.php"><i class="fa fa-caret-right"> </i> CULTURAL ACTIVITIES</a><br><br>
+                         <a href="../students/sports.php"><i class="fa fa-caret-right"> </i> STATE LEVEL BASKETBALL TEAM PARTICIPATED AT MYSURU ON 26, 27th OCTOBER 2016.</a><br><br>
+                         <a href="../students/essay.php"><i class="fa fa-caret-right"> </i> ESSAY COMPETITION</a><br><br>
+                         <a href="../students/sketch.php"><i class="fa fa-caret-right"> </i> SKETCHES</a><br><br>
+                         <a href="../students/news.php"><i class="fa fa-caret-right"> </i> NEWS PAPER CLIPPINGS</a>
                      </marquee>
                  </div>
              </div>
@@ -92,8 +92,8 @@
                  <h3><b>STUDENT RESOURCE</b></h3>
                  <div style="height: 300px; overflow-y: auto;">
                      <marquee direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
-                         <a id="syllbs" href="#"><i class="fa fa-caret-right"> </i> SYLLABUS</a><br><br>
-                         <a id="qsion" href="#"><i class="fa fa-caret-right"> </i> II YEAR English 1 Marks Questions & Answers</a><br>
+                         <a href="../students/syllabus.php"><i class="fa fa-caret-right"> </i> SYLLABUS</a><br><br>
+                         <a href="../students/qp.php"><i class="fa fa-caret-right"> </i> II YEAR English 1 Marks Questions & Answers</a><br>
                      </marquee>
                  </div>
              </div>

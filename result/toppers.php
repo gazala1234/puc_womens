@@ -53,8 +53,9 @@ include '../header.php';
 </style>
 
 <!--====== ABOUT PART START ======-->
-<hr>
-    <div>
+
+<div class="col-lg-12 col-sm-12 col-md-12 row mt-4 pl-5">
+    <div class="col-lg-6 col-sm-6 col-md-6">
         <h4 class="text-center" style="color: #b9a431;">Result Analysis - PUC II year Year Exam - 2019</h4>
         <table class="table table-striped text-center">
             <thead class="thead-dark">
@@ -102,9 +103,16 @@ include '../header.php';
                 </tr>
             </tbody>
         </table>
+    </div>
+    <div class="col-lg-5 col-sm-5 col-md-5 mt-4 ml-5">
         <canvas id="chart2019" class="chart"></canvas>
     </div>
-    <div>
+</div>
+<div class="col-lg-12 col-sm-12 col-md-12 row mt-4">
+    <div class="col-lg-5 col-sm-5 col-md-5 mt-4 ml-5">
+        <canvas id="chart2018" class="chart"></canvas>
+    </div>
+    <div class="col-lg-6 col-sm-6 col-md-6">
         <h4 class="text-center" style="color: #b9a431;">Result Analysis - PUC II year Year Exam - 2018</h4>
         <table class="table table-striped text-center">
             <thead class="thead-dark">
@@ -152,9 +160,10 @@ include '../header.php';
                 </tr>
             </tbody>
         </table>
-        <canvas id="chart2018" class="chart"></canvas>
     </div>
-    <div>
+</div>
+<div class="col-lg-12 col-sm-12 col-md-12 row mt-4 pl-5">
+    <div class="col-lg-6 col-sm-6 col-md-6">
         <h4 class="text-center" style="color: #b9a431;">Result Analysis - PUC II year Year Exam - 2017</h4>
         <table class="table table-striped text-center">
             <thead class="thead-dark">
@@ -202,9 +211,16 @@ include '../header.php';
                 </tr>
             </tbody>
         </table>
+    </div>
+    <div class="col-lg-5 col-sm-5 col-md-5 mt-4 ml-5">
         <canvas id="chart2017" class="chart"></canvas>
+    </div>
 </div>
-    <div>
+<div class="col-lg-12 col-sm-12 col-md-12 row mt-4">
+    <div class="col-lg-5 col-sm-5 col-md-5 mt-4 ml-5">
+        <canvas id="chart2016" class="chart"></canvas>
+    </div>
+    <div class="col-lg-6 col-sm-6 col-md-6">
         <h4 class="text-center" style="color: #b9a431;">Result Analysis - PUC II year Year Exam - 2016</h4>
         <table class="table table-striped text-center">
             <thead class="thead-dark">
@@ -252,9 +268,10 @@ include '../header.php';
                 </tr>
             </tbody>
         </table>
-        <canvas id="chart2016" class="chart"></canvas>
     </div>
-<div>
+</div>
+<div class="col-lg-12 col-sm-12 col-md-12 row mt-4 pl-5">
+<div class="col-lg-6 col-sm-6 col-md-6">
     <h4 class="text-center mt-3" style="color: #b9a431;">Course wise College Toppers</h4>
     <table class="table table-striped text-center">
         <thead class="thead-dark">
@@ -328,7 +345,10 @@ include '../header.php';
             </tr>
         </tbody>
     </table>
+    </div>
+    <div class="col-lg-5 col-sm-5 col-md-5 mt-5 ml-5">
     <canvas id="chartToppers" class="chart"></canvas>
+    </div>
 </div>
 <div class="container-fluid gal-container my-5">
     <div class="row">
@@ -432,154 +452,159 @@ include '../header.php';
     const chartData2019 = {
         labels: ['Science', 'Arts', 'Commerce', 'College Result'],
         datasets: [{
-            label: 'Distinction',
-            data: [5, 3, 6, 14],
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-            borderColor: 'rgba(75, 192, 192, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'First Class',
-            data: [43, 23, 23, 89],
-            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-            borderColor: 'rgba(54, 162, 235, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'Second Class',
-            data: [12, 14, 5, 31],
-            backgroundColor: 'rgba(255, 206, 86, 0.2)',
-            borderColor: 'rgba(255, 206, 86, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'Pass',
-            data: [0, 14, 9, 23],
-            backgroundColor: 'rgba(153, 102, 255, 0.2)',
-            borderColor: 'rgba(153, 102, 255, 1)',
-            borderWidth: 1
-        }]
+                label: 'Distinction',
+                data: [5, 3, 6, 14],
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'First Class',
+                data: [43, 23, 23, 89],
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'Second Class',
+                data: [12, 14, 5, 31],
+                backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                borderColor: 'rgba(255, 206, 86, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'Pass',
+                data: [0, 14, 9, 23],
+                backgroundColor: 'rgba(153, 102, 255, 0.2)',
+                borderColor: 'rgba(153, 102, 255, 1)',
+                borderWidth: 1
+            }
+        ]
     };
 
     const chartData2018 = {
         labels: ['Science', 'Arts', 'Commerce', 'College Result'],
         datasets: [{
-            label: 'Distinction',
-            data: [6, 3, 2, 11],
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-            borderColor: 'rgba(75, 192, 192, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'First Class',
-            data: [57, 27, 26, 110],
-            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-            borderColor: 'rgba(54, 162, 235, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'Second Class',
-            data: [8, 8, 15, 31],
-            backgroundColor: 'rgba(255, 206, 86, 0.2)',
-            borderColor: 'rgba(255, 206, 86, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'Pass',
-            data: [1, 7, 5, 13],
-            backgroundColor: 'rgba(153, 102, 255, 0.2)',
-            borderColor: 'rgba(153, 102, 255, 1)',
-            borderWidth: 1
-        }]
+                label: 'Distinction',
+                data: [6, 3, 2, 11],
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'First Class',
+                data: [57, 27, 26, 110],
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'Second Class',
+                data: [8, 8, 15, 31],
+                backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                borderColor: 'rgba(255, 206, 86, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'Pass',
+                data: [1, 7, 5, 13],
+                backgroundColor: 'rgba(153, 102, 255, 0.2)',
+                borderColor: 'rgba(153, 102, 255, 1)',
+                borderWidth: 1
+            }
+        ]
     };
 
     const chartData2017 = {
         labels: ['Science', 'Arts', 'Commerce', 'College Result'],
         datasets: [{
-            label: 'Distinction',
-            data: [2, 7, 7, 16],
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-            borderColor: 'rgba(75, 192, 192, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'First Class',
-            data: [62, 37, 28, 127],
-            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-            borderColor: 'rgba(54, 162, 235, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'Second Class',
-            data: [13, 12, 12, 37],
-            backgroundColor: 'rgba(255, 206, 86, 0.2)',
-            borderColor: 'rgba(255, 206, 86, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'Pass',
-            data: [1, 12, 10, 23],
-            backgroundColor: 'rgba(153, 102, 255, 0.2)',
-            borderColor: 'rgba(153, 102, 255, 1)',
-            borderWidth: 1
-        }]
+                label: 'Distinction',
+                data: [2, 7, 7, 16],
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'First Class',
+                data: [62, 37, 28, 127],
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'Second Class',
+                data: [13, 12, 12, 37],
+                backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                borderColor: 'rgba(255, 206, 86, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'Pass',
+                data: [1, 12, 10, 23],
+                backgroundColor: 'rgba(153, 102, 255, 0.2)',
+                borderColor: 'rgba(153, 102, 255, 1)',
+                borderWidth: 1
+            }
+        ]
     };
 
     const chartData2016 = {
         labels: ['Science', 'Arts', 'Commerce', 'College Result'],
         datasets: [{
-            label: 'Distinction',
-            data: [7, 4, 1, 12],
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-            borderColor: 'rgba(75, 192, 192, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'First Class',
-            data: [57, 33, 21, 111],
-            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-            borderColor: 'rgba(54, 162, 235, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'Second Class',
-            data: [16, 14, 10, 40],
-            backgroundColor: 'rgba(255, 206, 86, 0.2)',
-            borderColor: 'rgba(255, 206, 86, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'Pass',
-            data: [1, 9, 6, 16],
-            backgroundColor: 'rgba(153, 102, 255, 0.2)',
-            borderColor: 'rgba(153, 102, 255, 1)',
-            borderWidth: 1
-        }]
+                label: 'Distinction',
+                data: [7, 4, 1, 12],
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'First Class',
+                data: [57, 33, 21, 111],
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'Second Class',
+                data: [16, 14, 10, 40],
+                backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                borderColor: 'rgba(255, 206, 86, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'Pass',
+                data: [1, 9, 6, 16],
+                backgroundColor: 'rgba(153, 102, 255, 0.2)',
+                borderColor: 'rgba(153, 102, 255, 1)',
+                borderWidth: 1
+            }
+        ]
     };
 
     const chartDataToppers = {
         labels: ['2016', '2017', '2018', '2019'],
         datasets: [{
-            label: 'Science',
-            data: [89.5, 92.5, 91.5, 96.5],
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-            borderColor: 'rgba(75, 192, 192, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'Commerce',
-            data: [88.0, 89.0, 90.67, 90.67],
-            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-            borderColor: 'rgba(54, 162, 235, 1)',
-            borderWidth: 1
-        },
-        {
-            label: 'Arts',
-            data: [85.16, 87.16, 88.16, 87.83],
-            backgroundColor: 'rgba(255, 206, 86, 0.2)',
-            borderColor: 'rgba(255, 206, 86, 1)',
-            borderWidth: 1
-        }]
+                label: 'Science',
+                data: [89.5, 92.5, 91.5, 96.5],
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'Commerce',
+                data: [88.0, 89.0, 90.67, 90.67],
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'Arts',
+                data: [85.16, 87.16, 88.16, 87.83],
+                backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                borderColor: 'rgba(255, 206, 86, 1)',
+                borderWidth: 1
+            }
+        ]
     };
 
     const config = (data, id) => ({
