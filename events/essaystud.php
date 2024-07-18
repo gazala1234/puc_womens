@@ -1,6 +1,6 @@
 <!--====== HEADER FILE INCLUDED ======-->
 <?php
-include '../header.php';
+include '../home/header.php';
 ?>
 
 <style>
@@ -34,8 +34,8 @@ include '../header.php';
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="/images/events/ess1.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ess1.jpg)">
+                            <a href="../images/events/ess1.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ess1.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -49,12 +49,12 @@ include '../header.php';
                 </div>
             </div>
         </div>
-        <?php include '../aside.php'; ?>
+        <?php include '../home/aside.php'; ?>
     </div> <!-- row -->
 </div> <!-- content -->
 <!--====== ABOUT PART ENDS ======-->
 
 <!--====== FOOTER FILE INCLUDED ======-->
 <?php
-include '../footer.php';
+include '../home/footer.php';
 ?>

@@ -1,6 +1,6 @@
 <!--====== HEADER FILE INCLUDED ======-->
 <?php
-include '../header.php';
+include '../home/header.php';
 ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -151,11 +151,11 @@ include '../header.php';
                 </div>
             </div>
         </div>
-        <?php include '../aside.php'; ?>
+        <?php include '../home/aside.php'; ?>
     </div> <!-- row -->
 <!--====== ABOUT PART ENDS ======-->
 
 <!--====== FOOTER FILE INCLUDED ======-->
 <?php
-include '../footer.php';
+include '../home/footer.php';
 ?>

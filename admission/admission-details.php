@@ -1,6 +1,6 @@
 <!--====== HEADER FILE INCLUDED ======-->
 <?php
-include '../header.php';
+include '../home/header.php';
 ?>
 
 <style>
@@ -61,12 +61,12 @@ include '../header.php';
                 </ul>
             </div>
         </div>
-        <?php include '../aside.php';?>
+        <?php include '../home/aside.php';?>
     </div> <!-- row -->
 <!-- content -->
 <!--====== ABOUT PART ENDS ======-->
 
 <!--====== FOOTER FILE INCLUDED ======-->
 <?php
-include '../footer.php';
+include '../home/footer.php';
 ?>

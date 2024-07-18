@@ -90,7 +90,7 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item">
-                                        <a href="../home.php">Home</a>
+                                        <a href="../home/index.php">Home</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="../college/clgprofile.php">College Profile</a>
@@ -126,7 +126,7 @@
                                         <a href="https://alumni.secab.org/">Alumni</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="../contact.php">Contact</a>
+                                        <a href="../home/contact.php">Contact</a>
                                     </li>
                                 </ul>
                             </div>

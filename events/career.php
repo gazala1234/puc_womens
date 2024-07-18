@@ -1,6 +1,6 @@
 <!--====== HEADER FILE INCLUDED ======-->
 <?php
-include '../header.php';
+include '../home/header.php';
 ?>
 
 <!--====== ABOUT PART START ======-->
@@ -14,16 +14,31 @@ include '../header.php';
                 abilities, skills, strengths and weaknesses and how to eliminate the weaknesses and to be astute to 
                 improve their skills to achieve their goals.
             </p>
-            <div class="gallery ml-5 my-4">
-                <div class="gallery-item"><img src="/images/events/cgp.jpg" alt="Image 1"></div>
+            <div class="carousel-gallery">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="../images/events/cgp.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/cgp.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
             </div>
         </div>
-        <?php include '../aside.php'; ?>
+        <?php include '../home/aside.php'; ?>
     </div> <!-- row -->
 </div> <!-- content -->
 <!--====== ABOUT PART ENDS ======-->
 
 <!--====== FOOTER FILE INCLUDED ======-->
 <?php
-include '../footer.php';
+include '../home/footer.php';
 ?>

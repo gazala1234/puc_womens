@@ -1,6 +1,6 @@
 <!--====== HEADER FILE INCLUDED ======-->
 <?php
-include '../header.php';
+include '../home/header.php';
 ?>
 
 <style>
@@ -37,17 +37,31 @@ include '../header.php';
                 management and staff congratulate by extolling the venturesome performance of the students and
                 wish them good, prosperous and healthy life.
             </p>
-
-            <div class="gallery ml-5 my-5">
-                <div class="gallery-item"><img src="/images/events/ditLvlCoCu.png" alt="Image 1"></div>
+            <div class="carousel-gallery">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="../images/events/ditLvlCoCu.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ditLvlCoCu.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
             </div>
         </div>
-        <?php include '../aside.php'; ?>
+        <?php include '../home/aside.php'; ?>
     </div> <!-- row -->
 </div> <!-- content -->
 <!--====== ABOUT PART ENDS ======-->
 
 <!--====== FOOTER FILE INCLUDED ======-->
 <?php
-include '../footer.php';
+include '../home/footer.php';
 ?>

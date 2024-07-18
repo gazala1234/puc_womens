@@ -1,6 +1,6 @@
 <!--====== HEADER FILE INCLUDED ======-->
 <?php
-include '../header.php';
+include '../home/header.php';
 ?>
 
 <style>
@@ -33,8 +33,8 @@ include '../header.php';
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href="/images/activities/1.jpg" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(/images/activities/1.jpg)">
+                        <a href="../images/activities/1.jpg" data-fancybox="gallery">
+                            <div class="image" style="background-image: url(../images/activities/1.jpg)">
                                 <div class="overlay">
                                     <em class="mdi mdi-magnify-plus"></em>
                                 </div>
@@ -42,8 +42,8 @@ include '../header.php';
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="/images/activities/2.jpg" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(/images/activities/2.jpg)">
+                        <a href="../images/activities/2.jpg" data-fancybox="gallery">
+                            <div class="image" style="background-image: url(../images/activities/2.jpg)">
                                 <div class="overlay">
                                     <em class="mdi mdi-magnify-plus"></em>
                                 </div>
@@ -51,8 +51,8 @@ include '../header.php';
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="/images/activities/3.jpg" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(/images/activities/3.jpg)">
+                        <a href="../images/activities/3.jpg" data-fancybox="gallery">
+                            <div class="image" style="background-image: url(../images/activities/3.jpg)">
                                 <div class="overlay">
                                     <em class="mdi mdi-magnify-plus"></em>
                                 </div>
@@ -60,8 +60,8 @@ include '../header.php';
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="/images/activities/4.jpg" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(/images/activities/4.jpg)">
+                        <a href="../images/activities/4.jpg" data-fancybox="gallery">
+                            <div class="image" style="background-image: url(../images/activities/4.jpg)">
                                 <div class="overlay">
                                     <em class="mdi mdi-magnify-plus"></em>
                                 </div>
@@ -69,8 +69,8 @@ include '../header.php';
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="/images/activities/5.jpg" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(/images/activities/5.jpg)">
+                        <a href="../images/activities/5.jpg" data-fancybox="gallery">
+                            <div class="image" style="background-image: url(../images/activities/5.jpg)">
                                 <div class="overlay">
                                     <em class="mdi mdi-magnify-plus"></em>
                                 </div>
@@ -78,8 +78,8 @@ include '../header.php';
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="/images/activities/6.jpg" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(/images/activities/6.jpg)">
+                        <a href="../images/activities/6.jpg" data-fancybox="gallery">
+                            <div class="image" style="background-image: url(../images/activities/6.jpg)">
                                 <div class="overlay">
                                     <em class="mdi mdi-magnify-plus"></em>
                                 </div>
@@ -87,8 +87,8 @@ include '../header.php';
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="/images/activities/7.jpg" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(/images/activities/7.jpg)">
+                        <a href="../images/activities/7.jpg" data-fancybox="gallery">
+                            <div class="image" style="background-image: url(../images/activities/7.jpg)">
                                 <div class="overlay">
                                     <em class="mdi mdi-magnify-plus"></em>
                                 </div>
@@ -96,8 +96,8 @@ include '../header.php';
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="/images/activities/8.jpg" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(/images/activities/8.jpg)">
+                        <a href="../images/activities/8.jpg" data-fancybox="gallery">
+                            <div class="image" style="background-image: url(../images/activities/8.jpg)">
                                 <div class="overlay">
                                     <em class="mdi mdi-magnify-plus"></em>
                                 </div>
@@ -179,5 +179,5 @@ include '../header.php';
 
 <!--====== FOOTER FILE INCLUDED ======-->
 <?php
-include '../footer.php';
+include '../home/footer.php';
 ?>

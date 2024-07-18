@@ -10,7 +10,7 @@
                             <h6>Quick Links</h6>
                         </div>
                         <ul>
-                            <li><a href="../home.php"><i class="fa fa-angle-right"></i>Home</a></li>
+                            <li><a href="../home/index.php"><i class="fa fa-angle-right"></i>Home</a></li>
                             <li><a href="../college/clgprofile.php"><i class="fa fa-angle-right"></i>College Profile</a></li>
                             <li><a href="../facilities/facility.php"><i class="fa fa-angle-right"></i>Facilities</a></li>
                         </ul>
@@ -35,7 +35,7 @@
                         </div>
                         <ul>
                             <li><a href="#"><i class="fa fa-angle-right"></i>Feedback</a></li>
-                            <li><a href="../attendance/index.php"><i class="fa fa-angle-right"></i>Attendance</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i>Attendance</a></li>
                             <li><a href="https://siet.secab.org/itcell.php"><i class="fa fa-angle-right"></i>Imprint</a></li>
                         </ul>
                     </div>

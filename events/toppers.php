@@ -1,6 +1,6 @@
 <!--====== HEADER FILE INCLUDED ======-->
 <?php
-include '../header.php';
+include '../home/header.php';
 ?>
 
 <!--====== ABOUT PART START ======-->
@@ -9,16 +9,31 @@ include '../header.php';
     <div class="row m-3">
         <div class="col-lg-7">
             <h2 class="heading pl-5"><u>SECAB P.U. COLLEGE FOR WOMEN,VIJAYPUR TOPPERS LIST-2019</u></h2>
-            <div class="gallery ml-5 my-4">
-                <div class="gallery-item"><img src="/images/events/topperlist19.jpg" alt="Image 1"></div>
+            <div class="carousel-gallery">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="../images/events/topperlist19.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/topperlist19.jpg)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
             </div>
         </div>
-        <?php include '../aside.php'; ?>
+        <?php include '../home/aside.php'; ?>
     </div> <!-- row -->
 </div> <!-- content -->
 <!--====== ABOUT PART ENDS ======-->
 
 <!--====== FOOTER FILE INCLUDED ======-->
 <?php
-include '../footer.php';
+include '../home/footer.php';
 ?>

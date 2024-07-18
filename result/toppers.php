@@ -1,6 +1,6 @@
 <!--====== HEADER FILE INCLUDED ======-->
 <?php
-include '../header.php';
+include '../home/header.php';
 ?>
 
 <style>
@@ -355,8 +355,8 @@ include '../header.php';
         <div class="col-md-4 col-sm-6 col-xs-12 gal-item">
             <div class="modal-content">
                 <div class="modal-body">
-                    <a href="/images/toppers/topper2018-3.jpg" target=_blank>
-                        <img src="/images/toppers/topper2018-3.jpg" class="img-responsive" alt="Image Missing"></a>
+                    <a href="../images/toppers/topper2018-3.jpg" target=_blank>
+                        <img src="../images/toppers/topper2018-3.jpg" class="img-responsive" alt="Image Missing"></a>
                 </div>
                 <div class="col-md-12 description">
                     <h4 style="color: white;">Toppers Of The College - 2018</h4>
@@ -366,8 +366,8 @@ include '../header.php';
         <div class="col-md-4 col-sm-6 col-xs-12 gal-item">
             <div class="modal-content">
                 <div class="modal-body">
-                    <a href="/images/toppers/topper2018-1.jpg" target=_blank>
-                        <img src="/images/toppers/topper2018-1.jpg" class="img-responsive" alt="Image Missing"></a>
+                    <a href="..//images/toppers/topper2018-1.jpg" target=_blank>
+                        <img src="..//images/toppers/topper2018-1.jpg" class="img-responsive" alt="Image Missing"></a>
                 </div>
                 <div class="col-md-12 description">
                     <h4 style="color: white;">Toppers Of The College - 2018</h4>
@@ -377,8 +377,8 @@ include '../header.php';
         <div class="col-md-4 col-sm-6 col-xs-12 gal-item">
             <div class="modal-content">
                 <div class="modal-body">
-                    <a href="/images/toppers/topper2018-2.jpg" target=_blank>
-                        <img src="/images/toppers/topper2018-2.jpg" class="img-responsive" alt="Image Missing"></a>
+                    <a href="../images/toppers/topper2018-2.jpg" target=_blank>
+                        <img src="../images/toppers/topper2018-2.jpg" class="img-responsive" alt="Image Missing"></a>
                 </div>
                 <div class="col-md-12 description">
                     <h4 style="color: white;">Toppers in Commerce - 2018</h4>
@@ -390,8 +390,8 @@ include '../header.php';
         <div class="col-md-4 col-sm-6 col-xs-12 gal-item">
             <div class="modal-content">
                 <div class="modal-body">
-                    <a href="/images/toppers/topper2017.jpg" target=_blank>
-                        <img src="/images/toppers/topper2017.jpg" class="img-responsive" alt="Image Missing"></a>
+                    <a href="../images/toppers/topper2017.jpg" target=_blank>
+                        <img src="../images/toppers/topper2017.jpg" class="img-responsive" alt="Image Missing"></a>
                 </div>
                 <div class="col-md-12 description">
                     <h4 style="color: white;">Toppers Of The College - 2017</h4>
@@ -401,8 +401,8 @@ include '../header.php';
         <div class="col-md-4 col-sm-6 col-xs-12 gal-item">
             <div class="modal-content">
                 <div class="modal-body">
-                    <a href="/images/toppers/topper20172.jpg" target=_blank>
-                        <img src="/images/toppers/topper20172.jpg" class="img-responsive" alt="Image Missing"></a>
+                    <a href="../images/toppers/topper20172.jpg" target=_blank>
+                        <img src="../images/toppers/topper20172.jpg" class="img-responsive" alt="Image Missing"></a>
                 </div>
                 <div class="col-md-12 description">
                     <h4 style="color: white;">Distinction Holders - 2017</h4>
@@ -412,8 +412,8 @@ include '../header.php';
         <div class="col-md-4 col-sm-6 col-xs-12 gal-item">
             <div class="modal-content">
                 <div class="modal-body">
-                    <a href="/images/toppers/topper2016.jpg" target=_blank>
-                        <img src="/images/toppers/topper2016.jpg" class="img-responsive" alt="Image Missing"></a>
+                    <a href="../images/toppers/topper2016.jpg" target=_blank>
+                        <img src="../images/toppers/topper2016.jpg" class="img-responsive" alt="Image Missing"></a>
                 </div>
                 <div class="col-md-12 description">
                     <h4 style="color: white;">Toppers Of The College - 2016</h4>
@@ -425,8 +425,8 @@ include '../header.php';
         <div class="col-md-4 col-sm-6 col-xs-12 gal-item">
             <div class="modal-content">
                 <div class="modal-body">
-                    <a href="/images/toppers/topper2016-2.jpg" target=_blank>
-                        <img src="/images/toppers/topper2016-2.jpg" class="img-responsive" alt="Image Missing"></a>
+                    <a href="../images/toppers/topper2016-2.jpg" target=_blank>
+                        <img src="../images/toppers/topper2016-2.jpg" class="img-responsive" alt="Image Missing"></a>
                 </div>
                 <div class="col-md-12 description">
                     <h4 style="color: white;">Toppers And Distinction Holders - 2016</h4>
@@ -436,8 +436,8 @@ include '../header.php';
         <div class="col-md-4 col-sm-6 col-xs-12 gal-item">
             <div class="modal-content">
                 <div class="modal-body">
-                    <a href="/images/toppers/topper2016-3.jpg" target=_blank>
-                        <img src="/images/toppers/topper2016-3.jpg" class="img-responsive" alt="Image Missing"></a>
+                    <a href="../images/toppers/topper2016-3.jpg" target=_blank>
+                        <img src="../images/toppers/topper2016-3.jpg" class="img-responsive" alt="Image Missing"></a>
                 </div>
                 <div class="col-md-12 description">
                     <h4 style="color: white;">Toppers in CET 2016 Medical</h4>
@@ -649,5 +649,5 @@ include '../header.php';
 
 <!--====== FOOTER FILE INCLUDED ======-->
 <?php
-include '../footer.php';
+include '../home/footer.php';
 ?>

@@ -3,7 +3,7 @@
     <div class="about-cont">
         <div class="row">
             <div class="col-md-4 mt-5">
-                <img src="images/about/President.jpeg" class="img-fluid about" alt="President">
+                <img src="../images/about/President.jpeg" class="img-fluid about" alt="President">
                 <center>
                     <span id="prsdnt" class="mt-3">
                         <label>Mr. S A Punekar<br><small>Founder &amp; President</small></label>
@@ -37,7 +37,7 @@
                 </p>
             </div>
             <div class="col-md-4 mt-4">
-                <img src="images/about/pr_pucw.jpg" class="img-fluid about" alt="Principal">
+                <img src="../images/about/pr_pucw.jpg" class="img-fluid about" alt="Principal">
                 <center>
                     <span id="prsdnt" class="mt-3">
                         <label>MS. S M SHAIKH<br><small>Principal</small></label>

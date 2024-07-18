@@ -1,6 +1,6 @@
 <!--====== HEADER FILE INCLUDED ======-->
 <?php
-include '../header.php';
+include '../home/header.php';
 ?>
 
 <!--====== ABOUT PART START ======-->
@@ -17,8 +17,8 @@ include '../header.php';
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="/images/events/e1.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/e1.jpg)">
+                            <a href="../images/events/e1.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/e1.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -26,8 +26,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/e2.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/e2.jpg)">
+                            <a href="../images/events/e2.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/e2.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -35,8 +35,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/e3.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/e3.jpg)">
+                            <a href="../images/events/e3.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/e3.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -44,8 +44,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/e4.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/e4.jpg)">
+                            <a href="../images/events/e4.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/e4.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -53,8 +53,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/e5.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/e5.jpg)">
+                            <a href="../images/events/e5.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/e5.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -68,12 +68,12 @@ include '../header.php';
                 </div>
             </div>
         </div>
-        <?php include '../aside.php'; ?>
+        <?php include '../home/aside.php'; ?>
     </div> <!-- row -->
 </div> <!-- content -->
 <!--====== ABOUT PART ENDS ======-->
 
 <!--====== FOOTER FILE INCLUDED ======-->
 <?php
-include '../footer.php';
+include '../home/footer.php';
 ?>

@@ -1,6 +1,6 @@
 <!--====== HEADER FILE INCLUDED ======-->
 <?php
-include '../header.php';
+include '../home/header.php';
 ?>
 
 <!--====== ABOUT PART START ======-->
@@ -13,8 +13,8 @@ include '../header.php';
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr1.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr1.jpg)">
+                            <a href="../images/events/ppr1.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr1.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -22,8 +22,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr2.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr2.jpg)">
+                            <a href="../images/events/ppr2.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr2.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -31,8 +31,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr3.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr3.jpg)">
+                            <a href="../images/events/ppr3.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr3.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -40,8 +40,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr4.png" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr4.png)">
+                            <a href="../images/events/ppr4.png" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr4.png)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -49,8 +49,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr5.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr5.jpg)">
+                            <a href="../images/events/ppr5.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr5.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -58,8 +58,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr6.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr6.jpg)">
+                            <a href="../images/events/ppr6.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr6.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -67,8 +67,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr7.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr7.jpg)">
+                            <a href="../images/events/ppr7.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr7.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -76,8 +76,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr8.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr8.jpg)">
+                            <a href="../images/events/ppr8.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr8.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -85,8 +85,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr9.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr9.jpg)">
+                            <a href="../images/events/ppr9.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr9.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -94,8 +94,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr10.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr10.jpg)">
+                            <a href="../images/events/ppr10.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr10.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -103,8 +103,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr11.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr11.jpg)">
+                            <a href="../images/events/ppr11.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr11.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -112,8 +112,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr12.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr12.jpg)">
+                            <a href="../images/events/ppr12.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr12.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -121,8 +121,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr13.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr13.jpg)">
+                            <a href="../images/events/ppr13.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr13.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -130,8 +130,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr14.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr14.jpg)">
+                            <a href="../images/events/ppr14.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr14.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -139,8 +139,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr15.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr15.jpg)">
+                            <a href="../images/events/ppr15.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr15.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -148,8 +148,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr16.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr16.jpg)">
+                            <a href="../images/events/ppr16.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr16.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -157,8 +157,8 @@ include '../header.php';
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="/images/events/ppr17.jpg" data-fancybox="gallery">
-                                <div class="image" style="background-image: url(/images/events/ppr17.jpg)">
+                            <a href="../images/events/ppr17.jpg" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(../images/events/ppr17.jpg)">
                                     <div class="overlay">
                                         <em class="mdi mdi-magnify-plus"></em>
                                     </div>
@@ -172,12 +172,12 @@ include '../header.php';
                 </div>
             </div>
         </div>
-        <?php include '../aside.php'; ?>
+        <?php include '../home/aside.php'; ?>
     </div> <!-- row -->
 </div> <!-- content -->
 <!--====== ABOUT PART ENDS ======-->
 
 <!--====== FOOTER FILE INCLUDED ======-->
 <?php
-include '../footer.php';
+include '../home/footer.php';
 ?>
